@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>comment</key>
-	<string>http://dac.tl</string>
+	<string>https://github.com/dmatarazzo/Pterosaur-Color-Scheme</string>
 	<key>name</key>
 	<string>Pterosaur</string>
 	<key>settings</key>
@@ -34,6 +34,24 @@
 			<dict>
 				<key>foreground</key>
 				<string>#999999</string>
+				<key>fontStyle</key>
+				<string>italic</string>
+				<key>background</key>
+				<string>#161a23</string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>CSS block</string>
+			<key>scope</key>
+			<string>source.css meta</string>
+			<key>settings</key>
+			<dict>
+				<key>fontStyle</key>
+				<string></string>
+				<key>background</key>
+				<string>#161a23</string>
 			</dict>
 		</dict>
 		<dict>
@@ -49,15 +67,32 @@
 				<string>#CFCFCF</string>
 			</dict>
 		</dict>
+
 		<dict>
 			<key>name</key>
-			<string>Variable, String Link, Tag Name</string>
+			<string>Tag Name</string>
 			<key>scope</key>
-			<string>variable, support.other.variable, string.other.link, entity.name.tag, entity.other.attribute-name</string>
+			<string>entity.name.tag</string>
 			<key>settings</key>
 			<dict>
 				<key>foreground</key>
 				<string>#9ACC9F</string>
+				<key>fontStyle</key>
+				<string></string>
+			</dict>
+		</dict>
+
+		<dict>
+			<key>name</key>
+			<string>Variable, String Link, Tag Attribute</string>
+			<key>scope</key>
+			<string>variable, support.other.variable, string.other.link, entity.other.attribute-name</string>
+			<key>settings</key>
+			<dict>
+				<key>foreground</key>
+				<string>#9ACC9F</string>
+				<key>fontStyle</key>
+				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -81,7 +116,7 @@
 			<key>settings</key>
 			<dict>
 				<key>fontStyle</key>
-				<string></string>
+				<string>italic</string>
 				<key>foreground</key>
 				<string>#BEB5E0</string>
 			</dict>
