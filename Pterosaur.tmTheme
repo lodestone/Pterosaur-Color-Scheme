@@ -34,8 +34,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#999999</string>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>background</key>
 				<string>#161a23</string>
 			</dict>
@@ -91,8 +89,6 @@
 			<dict>
 				<key>foreground</key>
 				<string>#9ACC9F</string>
-				<key>fontStyle</key>
-				<string>italic</string>
 			</dict>
 		</dict>
 		<dict>
@@ -115,8 +111,6 @@
 			<string>entity.name.class, entity.name.type.class, support.type, support.class</string>
 			<key>settings</key>
 			<dict>
-				<key>fontStyle</key>
-				<string>italic</string>
 				<key>foreground</key>
 				<string>#BEB5E0</string>
 			</dict>
